@@ -23,7 +23,6 @@ Database: SQLAlchemy (SQLite/PostgreSQL)
 
 Example Query:
 
-graphql
 query {
   getSongs {
     title
