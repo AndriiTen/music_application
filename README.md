@@ -20,3 +20,13 @@ Backend: Python (Flask)
 GraphQL: Ariadne (schema-first)
 
 Database: SQLAlchemy (SQLite/PostgreSQL)
+
+Example Query:
+
+graphql
+query {
+  getSongs {
+    title
+    artist { name }
+  }
+}
